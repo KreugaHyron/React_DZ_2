@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f4f8;
+    color: #1f3a5f;
+    line-height: 1.6;
+}
+
+.App {
+    padding: 30px 20px;
+}
+
+h1 {
+    color: #004d99;
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #d4af37;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+h2 {
+    color: #3b5998;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+.card-container {
+    padding: 35px;
+    margin: 30px auto;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.culinary-chronicle-card {
+    max-width: 500px;
+    background: linear-gradient(145deg, #e6e9ee, #ffffff);
+    box-shadow: 10px 10px 20px #c8cdd4, -10px -10px 20px #ffffff;
+    border: 1px solid #c8cdd4;
+}
+
+.access-vault-card {
+    max-width: 400px;
+    background-color: #ffffff;
+    border: 1px solid #004d99;
+    box-shadow: 0 0 15px rgba(0, 77, 153, 0.3);
+}
+.blueprint-field-set {
+    border: 2px dashed #004d99;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.form-element-label {
+    display: block;
+    margin: 10px 0 5px 0;
+    font-weight: 600;
+    color: #1f3a5f;
+}
+
+.form-data-input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #3b5998;
+    background: #f0f4f8;
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+    transition: border-bottom-color 0.3s;
+}
+
+.form-data-input:focus {
+    outline: none;
+    border-bottom-color: #d4af37;
+}
+.eatery-visual {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.cmd-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    margin: 8px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+
+.cmd-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cmd-commit {
+    background-color: #3b8e6b;
+    color: white;
+}
+.cmd-dismiss {
+    background-color: #cc0000;
+    color: white;
+}
+.cmd-engage {
+    background-color: #004d99;
+    color: white;
+}
+.cmd-vault { /* Редагувати Логін */
+    background-color: #ffaa00;
+    color: #1f3a5f;
+}
+.cmd-toggle { /* Показати/Сховати */
+    background-color: #e9ecef;
+    color: #1f3a5f;
+    padding: 8px 15px;
+}
+.cmd-lock { /* Підтвердити */
+    background-color: #d4af37;
+    color: white;
+}
+
+.input-container {
+    position: relative;
+}
